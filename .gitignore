@@ -3,3 +3,5 @@
 
 # Bazel directories
 bazel-*
+MODULE.bazel.lock
+*~

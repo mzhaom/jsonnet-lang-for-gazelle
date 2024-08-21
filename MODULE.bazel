@@ -1,0 +1,6 @@
+module(name = "jsonnet-lang-for-gazelle")
+
+bazel_dep(name = "rules_go", version = "0.48.0")
+bazel_dep(name = "gazelle", version = "0.32.0")
+bazel_dep(name = "rules_jsonnet", version = "0.6.0")
+bazel_dep(name = "jsonnet_go", version = "0.20.0", repo_name = "google_jsonnet_go")
